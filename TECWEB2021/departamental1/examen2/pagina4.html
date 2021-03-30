@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 3 del examen</title>
+</head>
+</style>
+
+<body>
+    <h1 align="center">CATÁLOGO DE ARTE</h1>
+    <h2>Introduce los términos de búsqueda:</h2>
+    <main>
+        <table align="center" width="700px" height="50px">
+            <thead>
+                <tr>
+                    <th align="center" colspan="2">OBRA</th>
+                    <th align="center" colspan="2">TIPO</th>
+                    <th align="center" colspan="2">DISPONIBILIDAD</th>
+                    <th>ESTILO</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label for="titulo">Título</label></td>
+                    <td><input type="text" name="titulo" id="titulo" value="" size="16px"></td>
+                    <td><input type="checkbox" name="escultura" id="escultura"></td>
+                    <td><label for="escultura">Escultura</label></td>
+                    <td><input type="radio" name="mu_acc" id="mu_acc"></td>
+                    <td><label for="mu_acc">Museo/Acceso público</label></td>
+                    <td>
+                        <select name="est" id="est">
+                        <option value="1">Clásico</option>
+                        <option value="2">Contemporáneo</option>
+                        <option value="3">Vanguardista</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="autor">Autor</label></td>
+                    <td><input type="text" name="autor" id="autor" value="" size="12px"></td>
+                    <td><input type="checkbox" name="arq" id="arq"></td>
+                    <td><label for="arq">Arquitectura</label></td>
+                    <td><input type="radio" name="coleccion" id="coleccion"></td>
+                    <td><label for="coleccion">Colección privada</label></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><input type="checkbox" name="pintura" id="pintura"></td>
+                    <td><label for="pintura">Pintura</label></td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Háganos saber sus sugerencias:</h2>
+        <p align="center"><textarea name="sugerencia" id="sugerencia" cols="30" rows="10">Me gustaría indicar que…</textarea></p>
+        <p align="center"><input type="submit" value="Buscar"></p>    
+    </main>
+   
+            
+    <br>
+    <a href="examen2_VLAJ.html">Página principal del examen</a>
+</body>
+</html>
