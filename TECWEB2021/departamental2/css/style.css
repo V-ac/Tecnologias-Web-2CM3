@@ -1,0 +1,70 @@
+body #Tabla {
+    background-color: rgb(234, 238, 243);
+   
+}
+#DivRojo{
+    background-color: rgb(222, 76, 58);
+    color: white;
+}
+#DivAzul {
+    background-color: rgb(3, 192, 233);
+    color: white;
+}
+#DivAmarillo{
+    background-color: rgb(236, 173, 72);
+    color: white;
+}
+#DivVerde{
+    background-color: rgb(2, 165, 91);
+    color: white;
+}
+#BtnAzul{
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: helvetica;
+    font-size: 15px;
+    color: white;
+    background-color: rgba(23, 70, 226, 0.877);
+    border-radius: 6px;
+}
+#BtnVerde{
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: helvetica;
+    font-size: 15px;
+    color: white;
+    background-color: green;
+    border-radius: 6px;
+}
+#BtnAmarillo{
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: helvetica;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(207, 211, 1);
+    border-radius: 6px;
+}
+#BtnRojo{
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: helvetica;
+    font-size: 15px;
+    color: white;
+    background-color: red;
+    border-radius: 6px;
+}
+#BtnGris{
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: helvetica;
+    font-size: 15px;
+    color: white;
+    background-color: gray;
+    border-radius: 6px;
+}
