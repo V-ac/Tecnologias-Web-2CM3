@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 10</title>
+    <link rel="stylesheet" href="../plantilla/dist/css/adminlte.min.css">
+    <link rel="stylesheet" href="/departamental2/css/style.css">
+    
+</head>
+<body>
+    
+    
+
+    <div class="col-md-12" >
+        <div class="card card-default" id="Tabla">
+          <div class="card-header">
+             <form>
+                <input type="button" value="Azul"  id="BtnAzul" onclick="DivRoja()"> 
+                <input type="button" value="Verde" id="BtnVerde">
+                <input type="button" value="Amarillo" id="BtnAmarillo">
+                <input type="button" value="Rojo"  id="BtnRojo">
+                <input type="button" value="Gris" id="BtnGris">
+            </form>
+          </div>
+          <!-- /.card-header -->
+          <div class="card-body">
+            <div class="callout callout-danger" id="DivRojo" >
+              <h5>I am a danger callout!</h5>
+
+              <p>There is a problem that we need to fix. A wonderful serenity has taken possession of my entire
+                soul,
+                like these sweet mornings of spring which I enjoy with my whole heart.</p>
+            </div>
+            <div class="callout callout-info" id="DivAzul">
+              <h5>I am an info callout!</h5>
+
+              <p>Follow the steps to continue to payment.</p>
+            </div>
+            <div class="callout callout-warning" id="DivAmarillo">
+              <h5>I am a warning callout!</h5>
+
+              <p>This is a yellow callout.</p>
+            </div>
+            <div class="callout callout-success" id="DivVerde">
+              <h5>I am a success callout!</h5>
+
+              <p>This is a green callout.</p>
+            </div>
+          </div>
+          <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+      </div>
+      <script src="../plantilla/plugins/jquery/jquery.min.js"></script>
+      <script src="js/jQuery.js"></script>
+      <script>
+          $(document).ready(() => {
+        $('#DivRojo').hide();
+        $('#DivAzul').hide();
+        $('#DivAmarillo').hide();
+        $('#DivVerde').hide();
+
+        $('#BtnRojo').click(function(){
+            $('#DivRojo').show();
+            $('#DivAzul').hide();
+            $('#DivAmarillo').hide();
+            $('#DivVerde').hide();
+        });
+        $('#BtnVerde').click(function(){
+            $('#DivRojo').hide();
+            $('#DivAzul').hide();
+            $('#DivAmarillo').hide();
+            $('#DivVerde').show();
+        });
+        $('#BtnAmarillo').click(function(){
+            $('#DivRojo').hide();
+            $('#DivAzul').hide();
+            $('#DivAmarillo').show();
+            $('#DivVerde').hide();
+        });
+        $('#BtnAzul').click(function(){
+            $('#DivRojo').hide();
+            $('#DivAzul').show();
+            $('#DivAmarillo').hide();
+            $('#DivVerde').hide();
+        });
+        
+    });
+      </script>
+</body>
+</html>
